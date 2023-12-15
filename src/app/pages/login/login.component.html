@@ -17,6 +17,7 @@
                     <label for="chk" aria-hidden="true">Login</label>
                     <input type="text" name="username"[(ngModel)]="loginObj.username" placeholder="username" required="">
                     <input type="password" name="password" [(ngModel)]="loginObj.password" placeholder="Password" required="">
+                    <input type="text" name="appId" [(ngModel)]="loginObj.appId" placeholder="appid" required="">
                     <button (click)="onLogin()">Login</button>
                 </form>
             </div>
